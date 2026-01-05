@@ -1,4 +1,4 @@
-# Network Automation Tools
+# Network Automation Projects
 
 Practical Python automation projects focused on **network reliability**, **observability**, and **configuration management**.
 
