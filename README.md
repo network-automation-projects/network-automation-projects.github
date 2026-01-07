@@ -60,6 +60,32 @@ Netmiko-based automation for interacting with Cisco IOS-XE devices using SSH.
 **Use case**  
 Hands-on practice with live network device automation.
 
+### Ansible Network Automation
+
+Ansible playbooks for automating common Cisco IOS workflows in sandbox environments.
+
+Key features:
+- Configuration backups
+- Device fact gathering
+- Basic validation checks
+- Idempotent, repeatable runs
+
+Use case:
+Practicing declarative network automation and validating configurations safely using Ansible.
+
+### API & Infrastructure Tooling (Hands-on Labs)
+
+In addition to the repositories here, I’ve completed structured hands-on labs focused on building and testing RESTful APIs using Python and FastAPI.
+
+These labs covered:
+- CRUD API design
+- OAuth-based authentication flows
+- MongoDB-backed data models
+- Request validation with Pydantic
+- Introductory scalability and API testing concepts
+
+This work complements the automation projects by strengthening API design and service integration skills.
+
 ---
 
 ## Motivation
