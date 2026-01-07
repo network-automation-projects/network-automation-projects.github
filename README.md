@@ -47,17 +47,38 @@ Simulates observability pipelines similar to Prometheus, Grafana, or SolarWinds-
 
 ---
 
-### Netmiko Network Device Tool *(in progress)*
-Netmiko-based automation for interacting with Cisco IOS-XE devices using SSH.
+### Netmiko Dashboard
+First version simply imported netmiko class and showed mock data strings.  New version connects to Nokia practice servers using multiple concurrent connections with ThreadPoolExecutor, collects device facts and performs configuration backups in parallel, with data persisted in SQLite and exposed through a REST API.
 
 **Planned features**
-- Execute `show` commands against real devices (DevNet sandbox)  
-- Capture structured output  
-- Save results as TXT / JSON  
-- Full session logging  
+Concurrent SSH connections to multiple network devices using ThreadPoolExecutor
 
-**Use case**  
-Hands-on practice with live network device automation.
+Device fact collection (hostname, model, OS version, uptime, etc.)
+
+Automated configuration backups executed in parallel
+
+Persistent storage of device data and backups using SQLite
+
+REST API for querying collected device information
+
+Designed to support both mock data (early development) and live device connections
+
+Structured logging and error handling for connection and execution failures
+
+**Current state**
+Initial version used mocked Netmiko responses for UI and data flow testing
+
+Current version connects to Nokia practice servers and performs real SSH sessions
+
+**Planned enhancements**
+Execute show commands against live devices (e.g., DevNet sandbox)
+
+Capture and store structured command output
+
+Export results as TXT and JSON
+
+Full per-session logging for auditability and troubleshooting
+
 
 ### Ansible Network Automation Demo
 
