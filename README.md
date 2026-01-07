@@ -61,7 +61,7 @@ Hands-on practice with live network device automation.
 
 ### Ansible Network Automation
 
-Ansible playbooks for automating common Cisco IOS workflows in sandbox environments.
+Ansible playbooks for automating common Cisco IOS workflows in sandbox environments.  falls back to mock data when sandbox is not available.
 
 Key features:
 - Configuration backups
