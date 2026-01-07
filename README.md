@@ -59,7 +59,7 @@ Netmiko-based automation for interacting with Cisco IOS-XE devices using SSH.
 **Use case**  
 Hands-on practice with live network device automation.
 
-### Ansible Network Automation
+### Ansible Network Automation Demo
 
 Ansible playbooks for automating common Cisco IOS workflows in sandbox environments.  falls back to mock data when sandbox is not available.
 
