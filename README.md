@@ -39,8 +39,7 @@ Python tool for storing, querying, and analyzing mock network telemetry data usi
 
 **Key features**
 - Stores metrics (latency, packet loss, etc.) per device  
-- Aggregation queries (e.g. average latency)  
-- Threshold-based alerting  
+- Aggregation queries (e.g. average latency)    
 - JSON export for dashboards or APIs  
 
 **Use case**  
