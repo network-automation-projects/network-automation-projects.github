@@ -21,6 +21,20 @@ This organization hosts a curated set of tools built to demonstrate real-world s
 
 ## Projects
 
+### Go Prometheus Metrics Service
+Lightweight Go service exposing custom Prometheus metrics to demonstrate application-level observability, metric instrumentation, and monitoring workflows commonly used in SRE and platform engineering environments.
+
+This project implements a minimal HTTP service written in Go that publishes operational metrics in Prometheus format. It demonstrates how applications expose internal state for scraping, aggregation, and alerting in production monitoring systems.
+
+**Key features**
+Custom Prometheus metrics implemented using the Go Prometheus client
+HTTP server exposing a /metrics endpoint
+Example metrics like:
+  Request counts
+  Request duration
+  Application health indicators
+Designed to integrate with Prometheus scraping and Grafana dashboards
+
 ### Kubernetes Fundamentals Lab
 Hands-on Kubernetes lab demonstrating core container orchestration concepts using Pods, Deployments, and Services. The lab progresses from fragile single-pod deployments to production-ready, self-healing, load-balanced applications.
 
