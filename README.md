@@ -21,6 +21,18 @@ This organization hosts a curated set of tools built to demonstrate real-world s
 
 ## Projects
 
+### Kubernetes Fundamentals Lab
+Hands-on Kubernetes lab demonstrating core container orchestration concepts using Pods, Deployments, and Services. The lab progresses from fragile single-pod deployments to production-ready, self-healing, load-balanced applications.
+
+**Key features**
+Declarative Infrastructure using YAML manifests
+Pod Lifecycle Management as the basic execution unit
+ReplicaSets & Fault Tolerance through Deployments
+Self-Healing via automatic pod replacement
+Service Discovery with stable networking abstractions
+Load Balancing across multiple replicas
+Safe Teardown & Redeploy Workflows
+
 ### Config File Automator
 Python CLI tool for safe backup and recursive modification of YAML and JSON configuration files.
 
