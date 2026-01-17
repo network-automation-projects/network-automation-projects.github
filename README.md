@@ -1,6 +1,6 @@
 # Network Automation Projects
 
-Practical Python automation projects focused on **network reliability**, **observability**, and **configuration management**.
+Practical Python and Go automation projects focused on **network reliability**, **observability**, and **configuration management**.
 
 This organization hosts a curated set of tools built to demonstrate real-world skills used in **Network Reliability Engineering (NRE)**, **SRE**, and **DevOps** roles.
 
