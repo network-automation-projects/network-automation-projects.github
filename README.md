@@ -35,6 +35,8 @@ Example metrics like:
   Application health indicators
 Designed to integrate with Prometheus scraping and Grafana dashboards
 
+---
+
 ### Kubernetes Fundamentals Lab
 Hands-on Kubernetes lab demonstrating core container orchestration concepts using Pods, Deployments, and Services. The lab progresses from fragile single-pod deployments to production-ready, self-healing, load-balanced applications.
 
@@ -46,6 +48,8 @@ Self-Healing via automatic pod replacement
 Service Discovery with stable networking abstractions
 Load Balancing across multiple replicas
 Safe Teardown & Redeploy Workflows
+
+---
 
 ### Config File Automator
 Python CLI tool for safe backup and recursive modification of YAML and JSON configuration files.
@@ -105,6 +109,7 @@ Export results as TXT and JSON
 
 Full per-session logging for auditability and troubleshooting
 
+---
 
 ### Ansible Network Automation Demo
 
@@ -118,6 +123,8 @@ Key features:
 
 Use case:
 Practicing declarative network automation and validating configurations safely using Ansible.
+
+---
 
 ### API & Infrastructure Tooling (Hands-on Labs)
 
